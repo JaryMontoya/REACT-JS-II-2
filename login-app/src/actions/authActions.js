@@ -1,6 +1,6 @@
+export const login = (credentials) => {
 
-
-export const login = (username, password) => {
+const login = (username, password) => {
     return dispatch => {
         // Simulación de una llamada a una API
         setTimeout(() => {
@@ -11,4 +11,5 @@ export const login = (username, password) => {
             }
         }, 1000);
     };
-};
+}
+}

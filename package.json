@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "gh-pages": "^6.1.1",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "homepage": "https://JaryMontoya.github.io/REACT-JS-II-2"
+    
+
+}
+
+  }
+
